@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="224057fd-0493-4667-bc2d-819fe88c5a69" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="224057fd-0493-4667-bc2d-819fe88c5a69" name="Default Changelist" comment="add gitignore">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/stock.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/stock.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +31,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="add_unversioned_files" value="true" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -40,6 +41,35 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RunManager">
+    <configuration name="stock" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="delta_trader" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/example" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/example/stock.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.stock" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -63,17 +93,53 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1641045986472</updated>
-      <workItem from="1641045987984" duration="4285000" />
+      <workItem from="1641045987984" duration="4944000" />
+      <workItem from="1641130825763" duration="1831000" />
     </task>
+    <task id="LOCAL-00001" summary="add gitignore">
+      <created>1641053120226</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1641053120226</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="add gitignore" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="558" y="131" key="CommitChangelistDialog2" timestamp="1641053067413">
+    <state x="558" y="131" key="CommitChangelistDialog2" timestamp="1641132582068">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="558" y="131" key="CommitChangelistDialog2/0.0.1920.1080/1984.0.1856.1080@0.0.1920.1080" timestamp="1641053067413" />
+    <state x="558" y="131" key="CommitChangelistDialog2/0.0.1920.1080/1984.0.1856.1080@0.0.1920.1080" timestamp="1641132582068" />
+    <state width="1876" height="490" key="GridCell.Tab.0.bottom" timestamp="1641132566036">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1876" height="490" key="GridCell.Tab.0.bottom/0.0.1920.1080/1984.0.1856.1080@0.0.1920.1080" timestamp="1641132566036" />
+    <state width="1876" height="490" key="GridCell.Tab.0.center" timestamp="1641132566036">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1876" height="490" key="GridCell.Tab.0.center/0.0.1920.1080/1984.0.1856.1080@0.0.1920.1080" timestamp="1641132566036" />
+    <state width="1876" height="490" key="GridCell.Tab.0.left" timestamp="1641132566035">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1876" height="490" key="GridCell.Tab.0.left/0.0.1920.1080/1984.0.1856.1080@0.0.1920.1080" timestamp="1641132566035" />
+    <state width="1876" height="490" key="GridCell.Tab.0.right" timestamp="1641132566036">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1876" height="490" key="GridCell.Tab.0.right/0.0.1920.1080/1984.0.1856.1080@0.0.1920.1080" timestamp="1641132566036" />
+    <state x="552" y="260" key="Vcs.Push.Dialog.v2" timestamp="1641053121596">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="552" y="260" key="Vcs.Push.Dialog.v2/0.0.1920.1080/1984.0.1856.1080@0.0.1920.1080" timestamp="1641053121596" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/delta_trader$stock.coverage" NAME="stock Coverage Results" MODIFIED="1641132566019" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/example" />
   </component>
 </project>

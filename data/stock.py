@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+import os
 
 import jqdatasdk
 import pandas as pd
@@ -9,6 +10,8 @@ jqdatasdk.auth(*JQDATA_AUTH)
 
 pd.set_option('display.max_rows', 100000)
 pd.set_option('display.max_columns', 1000)
+
+file_root = os.path.dirname(__file__)
 
 
 def get_stocks():
@@ -40,9 +43,15 @@ def export_data(data, data_type, filename):
     :param filename:
     :return:
     """
-    file_path = f'./{data_type}/{filename}.csv'
+    file_path = f'{file_root}/{data_type}/{filename}.csv'
+    data.index.names = ['date']
     data.to_csv(file_path)
     print(f'已成功存储到： {file_path}')
+
+
+def get_csv_data(data_type, filename):
+    file_path = f'{file_root}/{data_type}/{filename}.csv'
+    return pd.read_csv(file_path)
 
 
 def transfer_price_freq(data, time_freq):
