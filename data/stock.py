@@ -31,6 +31,10 @@ def get_single_price(code, frequency, start_date, end_date):
     :param end_date:
     :return:
     """
+    # 如果 start_date=None, 默认为从上市日期开始
+    if start_date is None:
+        start_date = jqdatasdk.get_security_info(code).start_date
+
     return jqdatasdk.get_price(code, start_date=start_date, end_date=end_date,
                                frequency=frequency)
 
@@ -84,3 +88,10 @@ def get_single_valuation(code, date, stat_date):
         jqdatasdk.query(jqdatasdk.valuation).filter(
             jqdatasdk.valuation.code == code),
         date=date, statDate=stat_date)
+
+
+def calculate_change_pct(data):
+    """计算涨跌幅，（当前收盘价-前期收盘价）/前期收盘价"""
+    data['close_pct'] = (data['close'] - data['close'].shift(1)) / data[
+        'close'].shift(1)
+    return data

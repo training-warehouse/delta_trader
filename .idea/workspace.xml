@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="224057fd-0493-4667-bc2d-819fe88c5a69" name="Default Changelist" comment="add gitignore">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/strategy/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/strategy/strategy.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/stock.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/stock.py" afterDir="false" />
     </list>
@@ -42,7 +43,7 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.strategy">
     <configuration name="stock" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="delta_trader" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -65,8 +66,54 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="stock1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="delta_trader" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/example" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/example/stock1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="strategy" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="delta_trader" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/strategy" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/strategy/strategy.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.strategy" />
+        <item itemvalue="Python.stock1" />
         <item itemvalue="Python.stock" />
       </list>
     </recent_temporary>
@@ -95,6 +142,8 @@
       <updated>1641045986472</updated>
       <workItem from="1641045987984" duration="4944000" />
       <workItem from="1641130825763" duration="1831000" />
+      <workItem from="1641209457048" duration="1219000" />
+      <workItem from="1641218263918" duration="4411000" />
     </task>
     <task id="LOCAL-00001" summary="add gitignore">
       <created>1641053120226</created>
@@ -114,32 +163,50 @@
     <option name="LAST_COMMIT_MESSAGE" value="add gitignore" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="558" y="131" key="CommitChangelistDialog2" timestamp="1641132582068">
+    <state x="558" y="131" key="CommitChangelistDialog2" timestamp="1641132680893">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="558" y="131" key="CommitChangelistDialog2/0.0.1920.1080/1984.0.1856.1080@0.0.1920.1080" timestamp="1641132582068" />
-    <state width="1876" height="490" key="GridCell.Tab.0.bottom" timestamp="1641132566036">
+    <state x="558" y="131" key="CommitChangelistDialog2/0.0.1920.1080/1984.0.1856.1080@0.0.1920.1080" timestamp="1641132680893" />
+    <state width="1876" height="418" key="GridCell.Tab.0.bottom" timestamp="1641222689520">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1876" height="490" key="GridCell.Tab.0.bottom/0.0.1920.1080/1984.0.1856.1080@0.0.1920.1080" timestamp="1641132566036" />
-    <state width="1876" height="490" key="GridCell.Tab.0.center" timestamp="1641132566036">
+    <state width="1876" height="418" key="GridCell.Tab.0.bottom/0.0.1920.1080/1984.0.1856.1080@0.0.1920.1080" timestamp="1641222689520" />
+    <state width="1876" height="418" key="GridCell.Tab.0.center" timestamp="1641222689520">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1876" height="490" key="GridCell.Tab.0.center/0.0.1920.1080/1984.0.1856.1080@0.0.1920.1080" timestamp="1641132566036" />
-    <state width="1876" height="490" key="GridCell.Tab.0.left" timestamp="1641132566035">
+    <state width="1876" height="418" key="GridCell.Tab.0.center/0.0.1920.1080/1984.0.1856.1080@0.0.1920.1080" timestamp="1641222689520" />
+    <state width="1876" height="418" key="GridCell.Tab.0.left" timestamp="1641222689520">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1876" height="490" key="GridCell.Tab.0.left/0.0.1920.1080/1984.0.1856.1080@0.0.1920.1080" timestamp="1641132566035" />
-    <state width="1876" height="490" key="GridCell.Tab.0.right" timestamp="1641132566036">
+    <state width="1876" height="418" key="GridCell.Tab.0.left/0.0.1920.1080/1984.0.1856.1080@0.0.1920.1080" timestamp="1641222689520" />
+    <state width="1876" height="418" key="GridCell.Tab.0.right" timestamp="1641222689520">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1876" height="490" key="GridCell.Tab.0.right/0.0.1920.1080/1984.0.1856.1080@0.0.1920.1080" timestamp="1641132566036" />
-    <state x="552" y="260" key="Vcs.Push.Dialog.v2" timestamp="1641053121596">
+    <state width="1876" height="418" key="GridCell.Tab.0.right/0.0.1920.1080/1984.0.1856.1080@0.0.1920.1080" timestamp="1641222689520" />
+    <state width="1876" height="358" key="GridCell.Tab.1.bottom" timestamp="1641222146201">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="552" y="260" key="Vcs.Push.Dialog.v2/0.0.1920.1080/1984.0.1856.1080@0.0.1920.1080" timestamp="1641053121596" />
+    <state width="1876" height="358" key="GridCell.Tab.1.bottom/0.0.1920.1080/1984.0.1856.1080@0.0.1920.1080" timestamp="1641222146201" />
+    <state width="1876" height="358" key="GridCell.Tab.1.center" timestamp="1641222146201">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1876" height="358" key="GridCell.Tab.1.center/0.0.1920.1080/1984.0.1856.1080@0.0.1920.1080" timestamp="1641222146201" />
+    <state width="1876" height="358" key="GridCell.Tab.1.left" timestamp="1641222146201">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1876" height="358" key="GridCell.Tab.1.left/0.0.1920.1080/1984.0.1856.1080@0.0.1920.1080" timestamp="1641222146201" />
+    <state width="1876" height="358" key="GridCell.Tab.1.right" timestamp="1641222146201">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1876" height="358" key="GridCell.Tab.1.right/0.0.1920.1080/1984.0.1856.1080@0.0.1920.1080" timestamp="1641222146201" />
+    <state x="552" y="260" key="Vcs.Push.Dialog.v2" timestamp="1641132683734">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="552" y="260" key="Vcs.Push.Dialog.v2/0.0.1920.1080/1984.0.1856.1080@0.0.1920.1080" timestamp="1641132683734" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/delta_trader$stock.coverage" NAME="stock Coverage Results" MODIFIED="1641132566019" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/example" />
+    <SUITE FILE_PATH="coverage/delta_trader$strategy.coverage" NAME="strategy Coverage Results" MODIFIED="1641222689504" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/strategy" />
+    <SUITE FILE_PATH="coverage/delta_trader$stock1.coverage" NAME="stock1 Coverage Results" MODIFIED="1641219262795" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/example" />
   </component>
 </project>
