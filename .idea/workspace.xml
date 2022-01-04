@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="224057fd-0493-4667-bc2d-819fe88c5a69" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/strategy/base.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/strategy/strategy.py" beforeDir="false" afterPath="$PROJECT_DIR$/strategy/strategy.py" afterDir="false" />
     </list>
@@ -31,6 +32,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="add_unversioned_files" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/strategy" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -41,7 +43,34 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
-  <component name="RunManager" selected="Python.strategy">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\work\lianghua\delta_trader\strategy" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.comp_sharpe_ratio">
+    <configuration name="comp_sharpe_ratio" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="delta_trader" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/example" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/example/comp_sharpe_ratio.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="stock" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="delta_trader" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -110,6 +139,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.comp_sharpe_ratio" />
         <item itemvalue="Python.strategy" />
         <item itemvalue="Python.stock1" />
         <item itemvalue="Python.stock" />
@@ -141,7 +171,8 @@
       <workItem from="1641045987984" duration="4944000" />
       <workItem from="1641130825763" duration="1831000" />
       <workItem from="1641209457048" duration="1219000" />
-      <workItem from="1641218263918" duration="6637000" />
+      <workItem from="1641218263918" duration="6805000" />
+      <workItem from="1641300081421" duration="5532000" />
     </task>
     <task id="LOCAL-00001" summary="add gitignore">
       <created>1641053120226</created>
@@ -157,7 +188,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641222914210</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="完成最大回撤计算">
+      <created>1641225105618</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1641225105618</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -166,53 +204,55 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add gitignore" />
     <MESSAGE value="完成一个简单策略的模拟交易" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成一个简单策略的模拟交易" />
+    <MESSAGE value="完成最大回撤计算" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成最大回撤计算" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="558" y="131" key="CommitChangelistDialog2" timestamp="1641222913358">
+    <state x="558" y="131" key="CommitChangelistDialog2" timestamp="1641225104970">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="558" y="131" key="CommitChangelistDialog2/0.0.1920.1080/1984.0.1856.1080@0.0.1920.1080" timestamp="1641222913358" />
-    <state width="1876" height="418" key="GridCell.Tab.0.bottom" timestamp="1641224955812">
+    <state x="558" y="131" key="CommitChangelistDialog2/0.0.1920.1080/1984.0.1856.1080@0.0.1920.1080" timestamp="1641225104970" />
+    <state width="1876" height="393" key="GridCell.Tab.0.bottom" timestamp="1641305934987">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1876" height="418" key="GridCell.Tab.0.bottom/0.0.1920.1080/1984.0.1856.1080@0.0.1920.1080" timestamp="1641224955812" />
-    <state width="1876" height="418" key="GridCell.Tab.0.center" timestamp="1641224955812">
+    <state width="1876" height="393" key="GridCell.Tab.0.bottom/0.0.1920.1080/1984.0.1856.1080@0.0.1920.1080" timestamp="1641305934987" />
+    <state width="1876" height="393" key="GridCell.Tab.0.center" timestamp="1641305934987">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1876" height="418" key="GridCell.Tab.0.center/0.0.1920.1080/1984.0.1856.1080@0.0.1920.1080" timestamp="1641224955812" />
-    <state width="1876" height="418" key="GridCell.Tab.0.left" timestamp="1641224955812">
+    <state width="1876" height="393" key="GridCell.Tab.0.center/0.0.1920.1080/1984.0.1856.1080@0.0.1920.1080" timestamp="1641305934987" />
+    <state width="1876" height="393" key="GridCell.Tab.0.left" timestamp="1641305934987">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1876" height="418" key="GridCell.Tab.0.left/0.0.1920.1080/1984.0.1856.1080@0.0.1920.1080" timestamp="1641224955812" />
-    <state width="1876" height="418" key="GridCell.Tab.0.right" timestamp="1641224955812">
+    <state width="1876" height="393" key="GridCell.Tab.0.left/0.0.1920.1080/1984.0.1856.1080@0.0.1920.1080" timestamp="1641305934987" />
+    <state width="1876" height="393" key="GridCell.Tab.0.right" timestamp="1641305934987">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1876" height="418" key="GridCell.Tab.0.right/0.0.1920.1080/1984.0.1856.1080@0.0.1920.1080" timestamp="1641224955812" />
-    <state width="1876" height="358" key="GridCell.Tab.1.bottom" timestamp="1641222146201">
+    <state width="1876" height="393" key="GridCell.Tab.0.right/0.0.1920.1080/1984.0.1856.1080@0.0.1920.1080" timestamp="1641305934987" />
+    <state width="1876" height="358" key="GridCell.Tab.1.bottom" timestamp="1641225119835">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1876" height="358" key="GridCell.Tab.1.bottom/0.0.1920.1080/1984.0.1856.1080@0.0.1920.1080" timestamp="1641222146201" />
-    <state width="1876" height="358" key="GridCell.Tab.1.center" timestamp="1641222146201">
+    <state width="1876" height="358" key="GridCell.Tab.1.bottom/0.0.1920.1080/1984.0.1856.1080@0.0.1920.1080" timestamp="1641225119835" />
+    <state width="1876" height="358" key="GridCell.Tab.1.center" timestamp="1641225119835">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1876" height="358" key="GridCell.Tab.1.center/0.0.1920.1080/1984.0.1856.1080@0.0.1920.1080" timestamp="1641222146201" />
-    <state width="1876" height="358" key="GridCell.Tab.1.left" timestamp="1641222146201">
+    <state width="1876" height="358" key="GridCell.Tab.1.center/0.0.1920.1080/1984.0.1856.1080@0.0.1920.1080" timestamp="1641225119835" />
+    <state width="1876" height="358" key="GridCell.Tab.1.left" timestamp="1641225119835">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1876" height="358" key="GridCell.Tab.1.left/0.0.1920.1080/1984.0.1856.1080@0.0.1920.1080" timestamp="1641222146201" />
-    <state width="1876" height="358" key="GridCell.Tab.1.right" timestamp="1641222146201">
+    <state width="1876" height="358" key="GridCell.Tab.1.left/0.0.1920.1080/1984.0.1856.1080@0.0.1920.1080" timestamp="1641225119835" />
+    <state width="1876" height="358" key="GridCell.Tab.1.right" timestamp="1641225119835">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1876" height="358" key="GridCell.Tab.1.right/0.0.1920.1080/1984.0.1856.1080@0.0.1920.1080" timestamp="1641222146201" />
-    <state x="552" y="260" key="Vcs.Push.Dialog.v2" timestamp="1641223152878">
+    <state width="1876" height="358" key="GridCell.Tab.1.right/0.0.1920.1080/1984.0.1856.1080@0.0.1920.1080" timestamp="1641225119835" />
+    <state x="552" y="260" key="Vcs.Push.Dialog.v2" timestamp="1641225106784">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="552" y="260" key="Vcs.Push.Dialog.v2/0.0.1920.1080/1984.0.1856.1080@0.0.1920.1080" timestamp="1641223152878" />
+    <state x="552" y="260" key="Vcs.Push.Dialog.v2/0.0.1920.1080/1984.0.1856.1080@0.0.1920.1080" timestamp="1641225106784" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/delta_trader$stock.coverage" NAME="stock Coverage Results" MODIFIED="1641132566019" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/example" />
-    <SUITE FILE_PATH="coverage/delta_trader$strategy.coverage" NAME="strategy Coverage Results" MODIFIED="1641224955803" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/strategy" />
+    <SUITE FILE_PATH="coverage/delta_trader$strategy.coverage" NAME="strategy Coverage Results" MODIFIED="1641305193244" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/strategy" />
     <SUITE FILE_PATH="coverage/delta_trader$stock1.coverage" NAME="stock1 Coverage Results" MODIFIED="1641219262795" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/example" />
+    <SUITE FILE_PATH="coverage/delta_trader$comp_sharpe_ratio.coverage" NAME="comp_sharpe_ratio Coverage Results" MODIFIED="1641305934979" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/example" />
   </component>
 </project>
