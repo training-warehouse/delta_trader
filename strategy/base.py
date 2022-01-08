@@ -37,6 +37,13 @@ def calculate_cum_prof(data):
     return data
 
 
+def calculate_portfolio_return(data, signal, n):
+    """计算投资组合收益率"""
+    # 投资组合收益率（等权重） = 收益率之和 / 股票个数
+    returns = (signal * data.shift(-1)).T.sum() / n
+    return returns.shift(1)
+
+
 def calculate_max_drawdown(data):
     """计算最大回撤"""
     # 选取时间周期（时间窗口）

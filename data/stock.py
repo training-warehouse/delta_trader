@@ -5,7 +5,7 @@ import datetime
 import jqdatasdk
 import pandas as pd
 
-from .config import JQDATA_AUTH
+from data.config import JQDATA_AUTH
 
 jqdatasdk.auth(*JQDATA_AUTH)
 
@@ -28,6 +28,14 @@ def get_stocks():
     :return:
     """
     return list(jqdatasdk.get_all_securities(['stock']).index)
+
+
+def get_index_list(index_symbol='000300.XSHG'):
+    """
+    获取指数成分股
+    指数代码查询 www。joinquant.com/indexData
+    """
+    return jqdatasdk.get_index_stocks(index_symbol)
 
 
 def get_single_price(code, frequency, start_date=None, end_date=None):
@@ -70,11 +78,15 @@ def export_data(data, data_type, filename, mode='w'):
     print(f'已成功存储到： {file_path}')
 
 
-def get_csv_data(data_type, code, start_date, end_date):
+def get_csv_data(data_type, code, start_date, end_date, columns=None):
     """获取本地数据"""
     update_daily_price(code, data_type)
     file_path = f'{file_root}/{data_type}/{code}.csv'
-    data = pd.read_csv(file_path, index_col='date')
+
+    if columns is None:
+        data = pd.read_csv(file_path, index_col='date')
+    else:
+        data = pd.read_csv(file_path, index_col='date', usecols=columns)
 
     return data[(data.index >= start_date) & (data.index <= end_date)]
 
@@ -128,3 +140,7 @@ def update_daily_price(stock_code, data_type):
     else:
         data = get_single_price(stock_code, 'daily')
         export_data(data, data_type, stock_code)
+
+
+if __name__ == '__main__':
+    print(get_index_list())
