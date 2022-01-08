@@ -33,7 +33,7 @@ def calculate_prof_pct(data):
 
 def calculate_cum_prof(data):
     """计算累计收益率"""
-    data['cum_prof'] = pd.DataFrame(1 + data['profit_pct']).cumprod() - 1
+    data['cum_profit'] = pd.DataFrame(1 + data['profit_pct']).cumprod() - 1
     return data
 
 

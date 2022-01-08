@@ -47,7 +47,7 @@ def get_single_price(code, frequency, start_date=None, end_date=None):
         end_date = datetime.datetime.today()
 
     return jqdatasdk.get_price(code, start_date=start_date, end_date=end_date,
-                               frequency=frequency)
+                               frequency=frequency, panel=False)
 
 
 def export_data(data, data_type, filename, mode='w'):
